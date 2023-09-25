@@ -1,5 +1,6 @@
 .App {
     text-align: center;
+    list-style-position: inside;
 }
 
 .App-logo {
@@ -23,12 +24,18 @@
     justify-content: center;
     font-size: calc(10px + 2vmin);
     color: white;
+    background-color: magenta;
 }
 
 .App-link {
     color: #61dafb;
 }
 
+.red {
+    width: 200px;
+    height: 100px;
+    background-color: red;
+}
 @keyframes App-logo-spin {
     from {
         transform: rotate(0deg);
